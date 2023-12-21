@@ -21,9 +21,11 @@ a {
   font-weight: 500;
   color: #3bba9c;
   text-decoration: inherit;
+  transition: 0.5s;
 }
 
 a:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -106,8 +108,8 @@ iframe{
 
 body {
   position: relative;
-  padding-bottom: 200px;
-  padding-top: 180px;
+  padding-bottom: 260px;
+  padding-top: 160px;
   margin: 0;
 }
 
@@ -143,6 +145,34 @@ ul{
   cursor: pointer;
   box-shadow: 0 0 10px #3bba9c;
 }
+
+.dropdown{
+  position: relative;
+}
+
+.header-links .dropdown-content{
+  width: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown li:hover{
+  opacity: 0.5;
+}
+
+.dropdown-content li{
+  padding: 10px;
+  transition: 0.5s;
+  font-size: large;
+  width: 100%;
+}
+
+
 
 .socials{
   width: 100%;
@@ -218,6 +248,7 @@ h3{
   width:100%;
 }
 
+
 header{
   background-color: #1a1a1a;
   position: fixed;
@@ -286,19 +317,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-    cursor: pointer;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
 
 @media only screen and (max-width: 600px){
 
@@ -319,6 +338,8 @@ button:focus-visible {
   .skills-image{
     flex-direction: column;
   }
+
+  
 }
 
 @media only screen and (max-width: 780px){

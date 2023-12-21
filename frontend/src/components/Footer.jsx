@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   const year  = new Date().getFullYear()
   return (
-    <footer>
+    <footer id='footer'>
         <Socials2/>
         <p>Thato Baloyi &copy; {year} All rights reserved.</p>
         <p><Link to='privacy-policy'>Privacy Policy</Link></p>

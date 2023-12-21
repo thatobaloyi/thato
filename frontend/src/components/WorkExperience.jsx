@@ -1,6 +1,6 @@
 const WorkExperience = () => {
     return (
-      <div className="container workExperience">
+      <div className="container workExperience" id="experience">
         <h1>Work Experience</h1>
         <h3>Technician | FRASAR INTERNET CAFE</h3>
         <p></p>

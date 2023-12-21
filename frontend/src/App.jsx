@@ -35,7 +35,6 @@ function App() {
           <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
           <Route path='/faq' element={<FAQ></FAQ>}></Route>
         </Routes>
-        <br />
       <Footer />
       </Router>
     </>

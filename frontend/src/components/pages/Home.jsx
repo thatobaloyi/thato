@@ -9,6 +9,7 @@ import WorkExperience from '../WorkExperience'
 import Socials from '../Socials'
 
 function Home() {
+
     return (
         <>
             <div className="main">
@@ -35,7 +36,6 @@ function Home() {
                         <Projects />
                     </div>
                 </div>
-                <br />
             </div>
         </>
     )
