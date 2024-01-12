@@ -3,7 +3,7 @@ const WorkExperience = () => {
       <div className="container workExperience" id="experience">
         <h1>Work Experience</h1>
         <h3>Technician | FRASAR INTERNET CAFE</h3>
-        <p></p>
+        <p><em>2020 - 2021</em></p>
         <ul>
           <li>Diagnosed and resolved hardware and software issues on customer computers.</li>
           <li>Installed and configured networking equipment, ensuring optimal connectivity.</li>

@@ -5,7 +5,6 @@ function Image() {
   return (
     <>
         <img src={image} className='profile-image'/>
-   
     </>
   )
 }
