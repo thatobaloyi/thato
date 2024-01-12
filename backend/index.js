@@ -12,11 +12,6 @@ app.use(express.urlencoded({extended: false}))
 
 app.use('/projects', require('./routers/projectsRouter'))
 
-app.get('/', (req,res)=>{
-        res.json('The Server is working')
-        }
-)
-
 if(process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname,'../frontend/dist')))
 
