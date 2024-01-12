@@ -3,10 +3,13 @@
   "builds":[
     {"src": "*.js", "use": "@vercel/node"}
   ],
-  "routes":[
+ "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "/projects",
+      "methods": ["GET"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://thato-portfolio-frontend.vercel.app"
+      }
     }
   ]
 }
