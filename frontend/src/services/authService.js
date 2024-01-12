@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API_URL = '/projects'
+const API_URL = 'https://thato-portfolio-server.vercel.app/projects'
 
 const getProjects = async () => {
     try {
