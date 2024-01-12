@@ -5,10 +5,10 @@
   ],
   "routes": [
     {
-      "src": "/projects",
+      "src": "/(.*)",
       "methods": ["GET"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://thato-portfolio-frontend.vercel.app"
+        "Access-Control-Allow-Origin": "*"
       }
     }
   ]
