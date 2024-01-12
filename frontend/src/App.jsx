@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import Spinner from './components/Spinner'
 import { useSelector } from 'react-redux'
 import Home from './components/pages/Home'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Blog from './components/pages/Blog'
 
 import Html from './components/pages/codingPages/Html'
@@ -24,7 +24,7 @@ function App() {
     <>
       <Router>
         <Header />
-        <Routes>
+        <Switch>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='/coding/html' element={<Html></Html>}></Route>
@@ -34,7 +34,7 @@ function App() {
           <Route path='/coding/react-guide' element={<ReactGuide></ReactGuide>}></Route>
           <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
           <Route path='/faq' element={<FAQ></FAQ>}></Route>
-        </Routes>
+        </Switch>
       <Footer />
       </Router>
     </>
