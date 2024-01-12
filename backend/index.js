@@ -9,11 +9,6 @@ const {errorHandler} = require('./middleware/errorMiddleware')
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
-app.use(cors({
-        origin: ["https://thato-portfolio-frontend.vercel.app/"],
-        methods: ["POST","GET"],
-        credentials: true
-}))
 
 app.use('/projects', require('./routers/projectsRouter'))
 
