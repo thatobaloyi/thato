@@ -1,7 +1,7 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/projects", "dest": "https://thato-server.vercel.app/projects" },
+    { "src": "/projects", "dest": "/projects" },
     { "src": "/(.*)", "dest": "index.js" }
   ]
 }
