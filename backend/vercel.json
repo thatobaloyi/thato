@@ -3,11 +3,4 @@
   "builds":[
     {"src": "*.js", "use": "@vercel/node"}
   ],
- "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-    }
-  ]
 }
