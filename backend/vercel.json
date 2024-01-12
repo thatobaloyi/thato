@@ -8,9 +8,6 @@
       "src": "/projects",
       "dest": "./index.js"
       "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
     }
   ]
 }
