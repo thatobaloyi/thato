@@ -16,7 +16,7 @@ const getProjects = asyncHandler( async (req, res) =>{
 
     } catch (error) {
         console.error(error)
-        res.status(404).json({Error: "Authentication Error"})
+        res.status(500).json({Error: "Authentication Error"})
     }
 })
 
