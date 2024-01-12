@@ -8,7 +8,7 @@ const {errorHandler} = require('./middleware/errorMiddleware')
 
 
 app.use(express.json())
-
+app.use(cors())
 app.use(express.urlencoded({extended: false}))
 
 app.use('/projects', require('./routers/projectsRouter'))
