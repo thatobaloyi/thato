@@ -1,7 +1,6 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/projects", "dest": "/projects" },
-    { "src": "/(.*)", "dest": "index.js" }
+    { "handle": "/index.js", "src": "/(.*)", "dest": "/index.js" }
   ]
 }
