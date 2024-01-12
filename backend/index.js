@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 app.use(cors({
         origin: ["https://thato-portfolio-frontend.vercel.app/"],
-        methods: ["GET"],
+        methods: ["POST","GET"],
         credentials: true
 }))
 
