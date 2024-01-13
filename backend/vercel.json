@@ -8,10 +8,7 @@
   "routes":[
     {
       "src":"/api/projects",
-      "dest":"https://thato-server.vercel.app/$1",
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "dest":"/",
     }
   ]
 }
