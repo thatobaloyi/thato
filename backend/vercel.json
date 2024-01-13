@@ -9,6 +9,6 @@
     {
       "src":"/api/projects",
       "dest":"/",
-    },
+    }
   ]
 }
