@@ -1,4 +1,4 @@
 
-<img width="1306" alt="" src="https://github.com/thatobaloyi/thato/assets/102561962/09915184-b63b-46d1-b0b8-d160213d8748">
+<img width="1306" alt="" src="https://github.com/thatobaloyi/portfolio/assets/102561962/50e14ec0-cca1-42f4-8215-6e41cefb2393">
 
 
