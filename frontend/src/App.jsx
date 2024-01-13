@@ -14,7 +14,6 @@ import ReactGuide from './components/pages/blogPages/ReactGuide'
 import PrivacyPolicy from './components/pages/PrivacyPolicy'
 import FAQ from './components/pages/FAQ'
 function App() {
-  console.log(window.location.pathname)
   const {isLoading}  = useSelector((state) => state.auth)
   
   if(isLoading){

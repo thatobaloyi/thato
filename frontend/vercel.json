@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "vite.config.js",
+        "src": "package.json",
         "use": "@vercel/static-build"
       }
     ],
     "routes": [
       {
-        "src": "/blog/(.*)",
-        "dest": "/dist/$1"
+        "src": "/(.*)",
+        "dest": "/dist/index.html"
       }
     ]
   }
