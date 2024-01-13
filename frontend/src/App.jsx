@@ -26,7 +26,7 @@ function App() {
         <Header />
         <Switch>
           <Route path='/' exact component={<Home></Home>}></Route>
-          <Route path='/blog' component={<Blog></Blog>}></Route>
+          <Route path='/blog' component={Blog}></Route>
           <Route path='/coding/html' component={<Html></Html>}></Route>
           <Route path='/coding/css' component={<Css></Css>}></Route>
           <Route path='/coding/node' component={<Node></Node>}></Route>
