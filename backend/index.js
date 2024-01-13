@@ -10,7 +10,7 @@ const {errorHandler} = require('./middleware/errorMiddleware')
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 app.use(cors())
-app.use('/projects', require('./routers/projectsRouter'))
+app.use('/api/projects', require('./routers/projectsRouter'))
 
 if(process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname,'../frontend/dist')))
