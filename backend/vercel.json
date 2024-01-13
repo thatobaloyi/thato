@@ -7,6 +7,6 @@
   ],
   "rewrites": [
     { "source": "/api/projects", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/frontend/dist/$1" }
   ]
 }
