@@ -5,7 +5,7 @@
       "src": "*.js", "use": "@vercel/node"
     }
   ],
-  "rewrites": [
+  "routes": [
     { "source": "/api/projects", "destination": "/api/$1" },
     { "source": "/(.*)", "destination": "/frontend/dist/$1" }
   ]
