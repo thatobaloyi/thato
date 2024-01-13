@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import Spinner from './components/Spinner'
 import { useSelector } from 'react-redux'
 import Home from './components/pages/Home'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Blog from './components/pages/Blog'
 
 import Html from './components/pages/codingPages/Html'
@@ -24,17 +24,17 @@ function App() {
     <>
       <Router>
         <Header />
-        <Switch>
-          <Route path='/' exact component={<Home></Home>}></Route>
-          <Route path='/blog' component={Blog}></Route>
-          <Route path='/coding/html' component={<Html></Html>}></Route>
-          <Route path='/coding/css' component={<Css></Css>}></Route>
-          <Route path='/coding/node' component={<Node></Node>}></Route>
-          <Route path='/coding' component={<Coding></Coding>}></Route>
-          <Route path='/coding/react-guide' component={<ReactGuide></ReactGuide>}></Route>
-          <Route path='/privacy-policy' component={<PrivacyPolicy></PrivacyPolicy>}></Route>
-          <Route path='/faq' component={<FAQ></FAQ>}></Route>
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/blog' element={<Blog></Blog>}></Route>
+          <Route path='/coding/html' element={<Html></Html>}></Route>
+          <Route path='/coding/css' element={<Css></Css>}></Route>
+          <Route path='/coding/node' element={<Node></Node>}></Route>
+          <Route path='/coding' element={<Coding></Coding>}></Route>
+          <Route path='/coding/react-guide' element={<ReactGuide></ReactGuide>}></Route>
+          <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
+          <Route path='/faq' element={<FAQ></FAQ>}></Route>
+        </Routes>
       <Footer />
       </Router>
     </>
