@@ -6,7 +6,7 @@
     }
   ],
   "routes": [
-    { "source": "/api/projects", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/frontend/dist/$1" }
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/frontend/dist/$1" }
   ]
 }
