@@ -7,7 +7,7 @@
   ],
   "routes":[
     {
-      "src": "/api/projects",
+      "src": "/projects",
       "dest": "/"
     }
   ]
