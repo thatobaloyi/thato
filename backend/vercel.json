@@ -8,14 +8,10 @@
   "routes":[
     {
       "src": "/api/projects",
-      "dest": "https://thato-portfolio-frontend.vercel.app/",
+      "dest": "/",
       "headers": {
         "Access-Control-Allow-Origin": "*"
       }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
