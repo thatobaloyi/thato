@@ -9,9 +9,6 @@
     {
       "src": "/api/projects",
       "dest": "/",
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
     }
   ]
 }
