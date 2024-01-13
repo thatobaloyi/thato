@@ -9,6 +9,9 @@
     {
       "src":"/api/projects",
       "dest":"/"
-    }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
   ]
 }
