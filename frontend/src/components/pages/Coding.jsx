@@ -5,7 +5,7 @@ function Coding() {
         <>
             <h1>Coding</h1>
             <div className="main">
-                <div className="container blogs">
+                <div className="container d-lg-grid gap-5 align-items-center justify-content-center" style={{gridTemplateColumns: 'repeat(3, 1fr)'}}>
                     <div className="blog">
                         <h1><Link to='/coding/html'>Learn HTML</Link></h1>
                         <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>

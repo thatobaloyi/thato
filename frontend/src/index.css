@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-:root {
+:root{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #43455c;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,6 +20,21 @@ a {
   transition: 0.5s;
 }
 
+header ul li{
+  color: #3bba9c;
+
+}
+
+header li span{
+  border: 1px solid #43455c;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+header .dropdown-content li{
+  color: rgba(255, 255, 255, 0.87);
+}
+
 a:hover {
   opacity: 0.6;
   cursor: pointer;
@@ -35,6 +46,7 @@ span{
 
 hr{
 border-color: #3bba9c;
+width: 80%;
 }
 
 
@@ -53,7 +65,7 @@ iframe{
 }
 
 .main{
-  width: 95%;
+  width: 90%;
   margin: auto;
 }
 
@@ -91,14 +103,6 @@ iframe{
 }
 
 
-
-.blogs{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-
 .blog{
   display: flex;
   flex-direction: column;
@@ -107,9 +111,9 @@ iframe{
 
 
 body {
-  position: relative;
-  padding-bottom: 260px;
-  padding-top: 160px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #43455c;
+  /* padding-bottom: 260px; */
   margin: 0;
 }
 
@@ -137,7 +141,7 @@ ul{
 
 .profile-image{
   border-radius: 20px;
-  width: 80%;
+  width: 65%;
   transition: 0.5s;
 }
 
@@ -146,8 +150,8 @@ ul{
   box-shadow: 0 0 10px #3bba9c;
 }
 
-.dropdown{
-  position: relative;
+.dropdown-content{
+  display: none;
 }
 
 .header-links .dropdown-content{
@@ -172,15 +176,12 @@ ul{
   width: 100%;
 }
 
-
-
 .socials{
   width: 100%;
 }
 
 .skills-image{
-  height: auto;
-  gap: 50px;
+  gap: 1em;
   display: flex;
   align-items: center;
 }
@@ -190,7 +191,7 @@ ul{
   border: 1px solid transparent;
   background-color: #1a1a1a;
   border-radius: 20px;
-  padding: 20px;
+  padding: 2em;
   transition: 0.5s;
 }
 
@@ -285,7 +286,7 @@ footer{
   display: flex;
   padding: 20px;
   margin-top: 20px;
-  position:absolute;
+  position:relative;
   align-items: center;
   bottom: 0;
 }
@@ -321,16 +322,7 @@ button:focus-visible {
 
 @media only screen and (max-width: 600px){
 
-  .education-projects{
-    flex-wrap: wrap;
-  }
-
   .projects ul{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .blogs{
     display: flex;
     flex-wrap: wrap;
   }
@@ -344,10 +336,6 @@ button:focus-visible {
 
 @media only screen and (max-width: 780px){
   .projects ul{
-    grid-template-columns: repeat(2,1fr);
-  }
-  
-  .blogs{
     grid-template-columns: repeat(2,1fr);
   }
 }

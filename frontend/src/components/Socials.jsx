@@ -4,7 +4,8 @@ import {FaInstagram, FaGithub, FaInbox, FaPhone, FaTwitch, FaYoutube, FaLinkedin
 const Socials = () => {
   return (
     <div className="container socials">
-      <h3>Connect with me:</h3>
+      <center><h3>Connect with me:</h3></center>
+      <center><hr /></center>
       <ul>
         <li> 
             <FaPhone /> (+27) 79 743 9455

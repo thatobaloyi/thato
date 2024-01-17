@@ -2,6 +2,7 @@ const WorkExperience = () => {
     return (
       <div className="container workExperience" id="experience">
         <h1>Work Experience</h1>
+        <center><hr /></center>
         <h3>Technician | FRASAR INTERNET CAFE</h3>
         <p><em>2020 - 2021</em></p>
         <ul>

@@ -30,9 +30,8 @@ function Home() {
                 </div>
                 <br />
                 <div className="container">
-                    <div className="education-projects">
+                    <div className="d-lg-flex">
                         <Education />
-                        <hr />
                         <Projects />
                     </div>
                 </div>

@@ -24,6 +24,7 @@ const Projects = () => {
     <div className='projects'>
       <ToastContainer></ToastContainer>
       <h1>GitHub Projects</h1>
+      <center><hr /></center>
       {projects.length > 0 ? (<ul>
         {projects.map((project) => (
           <div className="project" key={crypto.randomUUID()}>

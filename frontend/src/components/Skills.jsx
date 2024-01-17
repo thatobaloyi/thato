@@ -4,6 +4,7 @@ function Skills() {
   return (
     <div id='skills' className='container'>
         <h1>Skills</h1>
+        <center><hr /></center>
         <div className="skills-links">
             <ul>
                 <li>Java</li>
