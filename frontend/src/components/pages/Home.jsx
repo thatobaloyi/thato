@@ -14,7 +14,7 @@ function Home() {
         <>
             <div className="main">
                 <br />
-                <div className="skills-image">
+            <div className="skills-image container" style={{background:'transparent', border:'none', padding:'0'}}>
                     <div>
                         <AboutMe />
                         <br />

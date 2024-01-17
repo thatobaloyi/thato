@@ -14,8 +14,8 @@ function Header() {
 
   return (
 
-    <header className='navbar navbar-expand-lg' id='header'>
-      <div style={{width:'95%'}}>
+    <header className='navbar navbar-expand-lg' id='header' >
+      <div style={{width:'100%'}}>
       <Socials2 />
       <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
       <button className="navbar-toggler" type='button' onClick={handleToggle} style={{padding: '1em', margin:'0.5em'}}>
