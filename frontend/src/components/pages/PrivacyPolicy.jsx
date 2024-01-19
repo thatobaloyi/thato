@@ -20,11 +20,11 @@ function PrivacyPolicy() {
 
         <h2>4. Contact Information</h2>
         <p>If you have any questions about this privacy policy or how your information may be handled on external platforms, you can contact us at <a href="mailto:thato2313321@gmail.com">thato2313321@gmail.com</a>.</p>
-
-        <h2>5. Changes to This Privacy Policy</h2>
-        <p>We reserve the right to update or change our privacy policy at any time. Any changes will be posted on this page with an updated effective date.</p>
-        <h2>6. Google Ads</h2>
+        <h2>5. Google Ads</h2>
         <p>This website uses Google Ads to display advertisements. Google Ads may use cookies and other tracking technologies to collect information about your visits to this and other websites in order to provide targeted advertisements about goods and services of interest to you. For more information about Google Ads and how to opt-out, please visit <a href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policies</a>.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We reserve the right to update or change our privacy policy at any time. Any changes will be posted on this page with an updated effective date.</p>
 
         <br />
         <center><p>By using this website, you consent to the terms of this privacy policy.</p></center>
