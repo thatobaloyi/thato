@@ -53,7 +53,7 @@ width: 80%;
 
 h1{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 1em;
 }
 
 p{
@@ -114,6 +114,7 @@ iframe{
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #43455c;
+  padding-top: 175px;
   /* padding-bottom: 260px; */
   margin: 0;
 }
@@ -181,12 +182,6 @@ ul{
   width: 100%;
 }
 
-.skills-image{
-  gap: 1em;
-  display: flex;
-  align-items: center;
-}
-
 
 .container{
   border: 1px solid transparent;
@@ -207,7 +202,9 @@ ul{
     padding-left: 30px;
 }
 
-
+.privacy-policy p{
+  margin-left: 30px;
+}
 
 .resume-button{
   display: inline-block;
@@ -253,7 +250,6 @@ h3{
 
 header{
   background-color: #1a1a1a;
-  position: fixed;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -328,11 +324,6 @@ button:focus-visible {
     flex-wrap: wrap;
   }
 
-  .skills-image{
-    flex-direction: column;
-  }
-
-  
 }
 
 @media only screen and (max-width: 780px){
@@ -344,7 +335,7 @@ button:focus-visible {
 .spinner-container{
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: 0;

@@ -8,11 +8,11 @@ const Socials = () => {
       <center><hr /></center>
       <ul>
         <li> 
-            <FaPhone /> (+27) 79 743 9455
+            <FaPhone /> <a href="tel:+27797439255">(+27) 79 743 9455</a> 
         </li>
         <br />
         <li> 
-            <FaInbox /> thato2313321@gmail.com
+            <FaInbox /> <a href="mailto:thato2313321@gmail.com">thato2313321@gmail.com</a>
         </li>
         <br />
         <li>

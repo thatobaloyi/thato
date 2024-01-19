@@ -14,7 +14,7 @@ function Home() {
         <>
             <div className="main">
                 <br />
-            <div className="skills-image container" style={{background:'transparent', border:'none', padding:'0'}}>
+            <div className="skills-image d-md-flex gap-3 container" style={{background:'transparent', border:'none', padding:'0'}}>
                     <div>
                         <AboutMe />
                         <br />
@@ -22,6 +22,7 @@ function Home() {
                         <br />
                         <WorkExperience />
                     </div>
+                    <br />
                     <div className="image-socials">
                         <Image />
                         <br />

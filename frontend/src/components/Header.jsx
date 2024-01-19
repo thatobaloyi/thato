@@ -14,7 +14,7 @@ function Header() {
 
   return (
 
-    <header className='navbar navbar-expand-lg' id='header' >
+    <header className='navbar navbar-expand-lg fixed-top' id='header' >
       <div style={{width:'100%'}}>
       <Socials2 />
       <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
@@ -34,10 +34,10 @@ function Header() {
                 <RouterLink to='/faq'><li>FAQ</li></RouterLink>
               </ul>
             </li>
-            {isHomePage && <li className='nav-item'><ScrollLink to='about-me' smooth={true} duration={500} offset={-200}>About</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='skills' smooth={true} duration={500} offset={-180}>Skills</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='experience' smooth={true} duration={500} offset={-180}>Experience</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='education' smooth={true} duration={500} offset={-200}>Education</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-200}>About</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='skills'  offset={-180}>Skills</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='experience'  offset={-180}>Experience</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='education' offset={-200}>Education</ScrollLink></li>}
           </ul>
         </div>
       </div>
