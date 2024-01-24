@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Socials2 from './Socials2';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll'
+import {saveAs} from 'file-saver'
+import ThatoResume from '../assets/resume/thato.pdf'
 
 function Header() {
   const location = useLocation()
@@ -12,12 +14,17 @@ function Header() {
     setNavMenuOpen(!isNavMenuOpen)
   }
 
+  const handleDownload = () => {
+    saveAs(ThatoResume, 'Thato_Resume.pdf')
+  }
+
   return (
 
     <header className='navbar navbar-expand-lg fixed-top' id='header' >
       <div style={{width:'100%'}}>
       <Socials2 />
       <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
+        <center><button onClick={handleDownload}>Download Resume</button></center>
       <button className="navbar-toggler" type='button' onClick={handleToggle} style={{padding: '1em', margin:'0.5em'}}>
         <span className="navbar-togger-icon">=</span>
       </button>

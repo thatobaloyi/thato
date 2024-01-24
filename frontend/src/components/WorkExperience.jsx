@@ -3,14 +3,15 @@ const WorkExperience = () => {
       <div className="container workExperience" id="experience">
         <h1>Work Experience</h1>
         <center><hr /></center>
-        <h3>Technician | FRASAR INTERNET CAFE</h3>
+        <h3>Office Assistant | FRASAR INTERNET CAFE</h3>
         <p><em>2020 - 2021</em></p>
         <ul>
-          <li>Diagnosed and resolved hardware and software issues on customer computers.</li>
-          <li>Installed and configured networking equipment, ensuring optimal connectivity.</li>
-          <li>Provided technical support to customers, maintaining a high level of customer satisfaction.</li>
-          <li>Implemented security measures to safeguard the cafe's network and systems.</li>
-          <li>Acquired expertise in hardware troubleshooting, software installation, and customer service.</li>
+          <li>Efficiently managed document preparation services, specializing in resume typing using MS Word, resulting in increased customer satisfaction and repeat business.</li>
+          <li>Facilitated administrative tasks such as printing, copying, and laminating, ensuring timely delivery of high-quality products and services to clients.</li>
+          <li>Demonstrated technical expertise by installing new operating systems on computers, optimizing performance, and resolving technical issues, leading to improved functionality of systems.</li>
+          <li>Assisted customers with online applications, offering guidance on navigating digital platforms and ensuring a smooth application process.</li>
+          <li>Conducted email correspondence, producing professional and effective communication to meet client needs.</li>
+          <li>Designed and produced business cards and invitation cards, showcasing creativity and attention to detail.</li>
         </ul>
       </div>
     );

@@ -114,7 +114,7 @@ iframe{
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #43455c;
-  padding-top: 175px;
+  padding-top: 210px;
   /* padding-bottom: 260px; */
   margin: 0;
 }
@@ -234,6 +234,7 @@ h3{
 }
 
 
+
 .workExperience ul{
   list-style: circle;
 }
@@ -293,6 +294,7 @@ footer a{
 }
 
 button {
+  color: #3bba9c;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -301,10 +303,11 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #43455c;
+  letter-spacing: 0.5px;
 }
 
 .container:hover{

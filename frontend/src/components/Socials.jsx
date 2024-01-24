@@ -8,7 +8,7 @@ const Socials = () => {
       <center><hr /></center>
       <ul>
         <li> 
-            <FaPhone /> <a href="tel:+27797439255">(+27) 79 743 9455</a> 
+            <FaPhone /> <a href="tel:+27797439455">(+27) 79 743 9455</a> 
         </li>
         <br />
         <li> 
