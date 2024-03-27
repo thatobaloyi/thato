@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import Socials2 from './Socials2';
+import { saveAs } from 'file-saver';
+import React, { useState } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll'
-import {saveAs} from 'file-saver'
-import ThatoResume from '../assets/resume/thato.pdf'
+import { Link as ScrollLink } from 'react-scroll';
+import ThatoResume from '../assets/resume/thato.pdf';
+import Socials2 from './Socials2';
 
 function Header() {
   const location = useLocation()
@@ -41,10 +41,10 @@ function Header() {
                 <RouterLink to='/faq'><li>FAQ</li></RouterLink>
               </ul>
             </li>
-            {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-200}>About</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='skills'  offset={-180}>Skills</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='experience'  offset={-180}>Experience</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='education' offset={-200}>Education</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-240}>About</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='skills'  offset={-230}>Skills</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='experience'  offset={-230}>Experience</ScrollLink></li>}
+            {isHomePage && <li className='nav-item'><ScrollLink to='education' offset={-265}>Education</ScrollLink></li>}
           </ul>
         </div>
       </div>
