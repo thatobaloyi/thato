@@ -5,7 +5,7 @@ function AboutMe() {
     <div id='about-me' className='container'>
       <h1>About Me</h1>
       <center><hr /></center>
-        <p>I'm Thato Emmanuel Baloyi, a Computer Science major at <span>Rhodes University.</span> I'm passionate about coding, problem-solving, and exploring the endless possibilities in tech. Currently navigating my academic journey, I'm eager to contribute my skills to innovative projects. Let's connect and discuss the exciting possibilities in the world of Computer Science.</p>
+        <p>I'm Thato Emmanuel Baloyi, a Computer Science major at <span>Rhodes University.</span> A Highly motivated second-year BSc Computer Science and Information Systems student with a strong passion for full-stack development and IT specialization. Achieved first place in my first-year computer science class, demonstrating a solid foundation in programming concepts and problem-solving skills. I am a dedicated learner, continuously seeking to expand my knowledge of the latest technological advancements and their practical applications.</p>
     </div>
   )
 }

@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "thato-portfolio"
-  }
+  },
+  "targets": {
+    "thato-portfolio": {
+      "hosting": {
+        "thato-portfolio": [
+          "thato-portfolio"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

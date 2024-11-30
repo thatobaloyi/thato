@@ -13,7 +13,6 @@ function Home() {
     return (
         <>
             <div className="main">
-                <br />
             <div className="skills-image d-md-flex gap-3 container" style={{background:'transparent', border:'none', padding:'0'}}>
                     <div>
                         <AboutMe />
@@ -31,7 +30,7 @@ function Home() {
                 </div>
                 <br />
                 <div className="container">
-                    <div className="d-lg-flex">
+                    <div className="d-lg-flex-column">
                         <Education />
                         <Projects />
                     </div>

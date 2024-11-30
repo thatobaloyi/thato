@@ -19,12 +19,12 @@ function PrivacyPolicy() {
         <p>We do not use cookies or any other tracking technologies to gather information about your browsing behavior on this website.</p>
 
         <h2>4. Contact Information</h2>
-        <p>If you have any questions about this privacy policy or how your information may be handled on external platforms, you can contact us at <a href="mailto:thato2313321@gmail.com">thato2313321@gmail.com</a>.</p>
+        <p>If you have any questions about this privacy policy or how your information may be handled on external platforms, you can contact us at <a href="mailto:info@thatobaloyi.fyi">info@thatobaloyi.fyi</a>.</p>
         <h2>5. Google Ads</h2>
-        <p>This website uses Google Ads to display advertisements. Google Ads may use cookies and other tracking technologies to collect information about your visits to this and other websites in order to provide targeted advertisements about goods and services of interest to you. For more information about Google Ads and how to opt-out, please visit <a href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policies</a>.</p>
-        <h2>6. YouTube Videos</h2>
+        {/* <p>This website uses Google Ads to display advertisements. Google Ads may use cookies and other tracking technologies to collect information about your visits to this and other websites in order to provide targeted advertisements about goods and services of interest to you. For more information about Google Ads and how to opt-out, please visit <a href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policies</a>.</p>
+        <h2>6. YouTube Videos</h2> */}
         <p>We may embed YouTube videos on this website to provide instructional content on coding concepts. Please note that playing embedded YouTube videos may involve the use of cookies and may be subject to Google's privacy policy. For more information about Google's privacy practices, please refer to <a href="https://policies.google.com/privacy" target="_blank">Google Privacy & Terms</a>.</p>
-        <h2>7. Changes to This Privacy Policy</h2>
+        <h2>6. Changes to This Privacy Policy</h2>
         <p>We reserve the right to update or change our privacy policy at any time. Any changes will be posted on this page with an updated effective date.</p>
 
         <br />

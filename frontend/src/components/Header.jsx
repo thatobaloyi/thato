@@ -24,6 +24,7 @@ function Header() {
       <div style={{width:'100%'}}>
       <Socials2 />
       <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
+      <center><small>(click the name to go back to Home)</small></center>
         <center><button onClick={handleDownload}>Download Resume</button></center>
       <button className="navbar-toggler" type='button' onClick={handleToggle} style={{padding: '1em', margin:'0.5em'}}>
         <span className="navbar-togger-icon">=</span>
@@ -33,14 +34,14 @@ function Header() {
             <li className="nav-item">
               <RouterLink to='/'>Home</RouterLink>
             </li>
-            <li className='dropdown'>
+            {/* <li className='dropdown'>
               <span>More Pages</span>
               <ul className='dropdown-content'>
                 <RouterLink to='/blog'><li>Blog</li></RouterLink>
                 <RouterLink to='/coding'><li>Coding</li></RouterLink>
                 <RouterLink to='/faq'><li>FAQ</li></RouterLink>
               </ul>
-            </li>
+            </li> */}
             {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-240}>About</ScrollLink></li>}
             {isHomePage && <li className='nav-item'><ScrollLink to='skills'  offset={-230}>Skills</ScrollLink></li>}
             {isHomePage && <li className='nav-item'><ScrollLink to='experience'  offset={-230}>Experience</ScrollLink></li>}

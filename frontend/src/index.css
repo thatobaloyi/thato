@@ -20,6 +20,8 @@ a {
   transition: 0.5s;
 }
 
+
+
 header ul li{
   color: #3bba9c;
 
@@ -87,11 +89,13 @@ iframe{
   padding: 20px;
 }
 
-.education-projects{
+/* .education-projects{
   gap: 10px;
   display: flex;
+  flex-direction: column;
 
-}
+} */
+
 .project{
   padding: 20px;
   border: 1px solid transparent;
@@ -114,7 +118,7 @@ iframe{
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #43455c;
-  padding-top: 210px;
+  padding-top: 265.27px;
   /* padding-bottom: 260px; */
   margin: 0;
 }
@@ -143,7 +147,7 @@ ul{
 
 .profile-image{
   border-radius: 20px;
-  width: 65%;
+  width: 80%;
   transition: 0.5s;
 }
 
