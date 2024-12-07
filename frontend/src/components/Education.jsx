@@ -12,8 +12,8 @@ function Education() {
         <center><hr /></center>
         <h4>BEng in Electrical and Electonic Engineering</h4>
         <p><em>University of Johannesburg, [Johannesburg, South Africa]</em></p>
-        <p><em>Completed: [2022]</em></p>
-        <p>Studied Electrical and Electronic Engineering for two years, gaining insights into the fundamentals of the field. Although the course was a four-year program, my academic journey led me to new opportunities, and I look forward to applying the knowledge gained in future endeavors</p>
+        <p><em>[2021 - 2022]</em></p>
+        <p>Studied Electrical and Electronic Engineering for two years, gaining insights into the fundamentals of the field. While I didn't finish the degree, the foundational knowledge and technical abilities I acquired during this time remain valuable assets for my new career in computer science</p>
     </div>
   )
 }

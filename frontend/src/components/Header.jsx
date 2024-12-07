@@ -24,7 +24,7 @@ function Header() {
       <div style={{width:'100%'}}>
       <Socials2 />
       <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
-      <center><small>(click the name to go back to Home)</small></center>
+      {/* <center><small>(click the name to go back to Home)</small></center> */}
         <center><button onClick={handleDownload}>Download Resume</button></center>
       <button className="navbar-toggler" type='button' onClick={handleToggle} style={{padding: '1em', margin:'0.5em'}}>
         <span className="navbar-togger-icon">=</span>

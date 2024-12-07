@@ -26,6 +26,7 @@ function Home() {
                         <Image />
                         <br />
                         <Socials />
+                        
                     </div>
                 </div>
                 <br />

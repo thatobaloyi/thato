@@ -34,6 +34,7 @@ const Socials2 = () => {
             <FaLinkedin />
           </a>
         </li>
+        
       </ul>
     </div>
   );

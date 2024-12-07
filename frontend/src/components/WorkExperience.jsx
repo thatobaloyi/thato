@@ -17,19 +17,17 @@ const WorkExperience = () => {
       <h5>Computer Science Tutor @ Rhodes University</h5>
       <p><em>February 2024 - Present</em></p>
       <ul>
-        <li>Guide students in understanding practical tasks and assignments</li>
-        <li>Provide constructive feedback on student word, focusing on areas for improvement</li>
+        <li>Guided students through complex computer science practicals, ensuring they understood key concepts and could apply them effectively</li>
+        <li>Marked student work, offering constructive feedback to help them improve their understanding and performance</li>
         <li>Offer study tips and strategies to help students excel in computer science
         </li>
       </ul>
       <center><hr /></center>
-      <h5>Student Technician @ Rhodes University</h5>
+      <h5>Lecture Venue Technician @ Rhodes University</h5>
       <p><em>February 2024 - Present</em></p>
       <ul>
-        <li>Guide students in understanding practical tasks and assignments</li>
-        <li>Provide constructive feedback on student word, focusing on areas for improvement</li>
-        <li>Offer study tips and strategies to help students excel in computer science
-        </li>
+        <li>Assist lecturers with technical issues related to projectors, microphones and other equipment</li>
+        <li>Troubleshoot and resolve technical problems efficiently to minimize disruptions during lectures</li>
       </ul>
     </div>
   );
