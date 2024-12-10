@@ -1,9 +1,12 @@
 
 import {FaInstagram, FaGithub, FaInbox, FaPhone, FaTwitch, FaYoutube, FaLinkedin } from 'react-icons/fa';
-
+import Image from './Image';
 const Socials = () => {
   return (
     <div className="container socials">
+      <center><Image></Image></center>
+      <br />
+    
       <center><h3>Connect with me:</h3></center>
       <center><hr /></center>
       <ul>

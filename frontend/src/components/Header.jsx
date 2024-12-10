@@ -10,7 +10,7 @@ function Header() {
   const isHomePage = location.pathname === '/'
   const [isNavMenuOpen, setNavMenuOpen] = useState(false);
 
-  const handleToggle=()=>{
+  const handleToggle = () => {
     setNavMenuOpen(!isNavMenuOpen)
   }
 
@@ -20,21 +20,23 @@ function Header() {
 
   return (
 
-    <header className='navbar navbar-expand-lg fixed-top' id='header' >
-      <div style={{width:'100%'}}>
-      <Socials2 />
-      <center><h1><RouterLink to='/'>Thato Emmanuel Baloyi</RouterLink></h1></center>
-      {/* <center><small>(click the name to go back to Home)</small></center> */}
-        <center><button onClick={handleDownload}>Download Resume</button></center>
-      <button className="navbar-toggler" type='button' onClick={handleToggle} style={{padding: '1em', margin:'0.5em'}}>
-        <span className="navbar-togger-icon">=</span>
-      </button>
-        <div className={`collapse navbar-collapse ${isNavMenuOpen ? "show" : ""}`} id="navmenu" style={{padding: '1em', marginLeft:'1em'}}>
-          <ul className='navbar-nav gap-3'>
-            <li className="nav-item">
-              <RouterLink to='/'>Home</RouterLink>
-            </li>
-            {/* <li className='dropdown'>
+    <header className='navbar navbar-expand-md fixed-top mt-2' id='header' >
+      <div id='header-div'>
+        {/* <Socials2 /> */}
+        <button className="navbar-toggler" type='button' onClick={handleToggle} style={{ padding: '1em', margin: '0.5em' }}>
+          <span className="navbar-togger-icon">=</span>
+        </button>
+        <h5><RouterLink to='/'>Thato Baloyi</RouterLink></h5>
+      </div>
+
+      <button id='download-btn' onClick={handleDownload}>Download Resume</button>
+
+      <div className={`collapse navbar-collapse ${isNavMenuOpen ? "show" : ""}`} id="navmenu" style={{ padding: '1em', marginLeft: '1em' }}>
+        <ul className='navbar-nav gap-3'>
+          <li className="nav-item">
+            <RouterLink to='/'>Home</RouterLink>
+          </li>
+          {/* <li className='dropdown'>
               <span>More Pages</span>
               <ul className='dropdown-content'>
                 <RouterLink to='/blog'><li>Blog</li></RouterLink>
@@ -42,12 +44,11 @@ function Header() {
                 <RouterLink to='/faq'><li>FAQ</li></RouterLink>
               </ul>
             </li> */}
-            {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-240}>About</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='skills'  offset={-230}>Skills</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='experience'  offset={-230}>Experience</ScrollLink></li>}
-            {isHomePage && <li className='nav-item'><ScrollLink to='education' offset={-265}>Education</ScrollLink></li>}
-          </ul>
-        </div>
+          {isHomePage && <li className='nav-item'><ScrollLink to='about-me' offset={-240}>About</ScrollLink></li>}
+          {isHomePage && <li className='nav-item'><ScrollLink to='skills' offset={-100}>Skills</ScrollLink></li>}
+          {isHomePage && <li className='nav-item'><ScrollLink to='experience' offset={-100}>Experience</ScrollLink></li>}
+          {isHomePage && <li className='nav-item'><ScrollLink to='education' offset={-100}>Education</ScrollLink></li>}
+        </ul>
       </div>
 
     </header>

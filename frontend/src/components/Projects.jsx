@@ -21,7 +21,7 @@ const Projects = () => {
   
   return (
 
-    <div className='projects'>
+    <div className='projects container'>
       <ToastContainer></ToastContainer>
       <h1>GitHub Projects</h1>
       <center><hr /></center>

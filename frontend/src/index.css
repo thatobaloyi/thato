@@ -18,27 +18,90 @@ a {
   transition: 0.5s;
 }
 
-
+/* Header */
 
 header ul li{
   color: #3bba9c;
 
 }
 
-header li span{
-  border: 1px solid #43455c;
-  padding: 0.5em;
-  border-radius: 0.5em;
-}
 
 header .dropdown-content li{
   color: rgba(255, 255, 255, 0.87);
 }
 
+header ul{
+  margin:auto;
+}
+
+
+header{
+  padding: 0 1em !important;
+  gap: 20px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: fixed !important;
+  background-color: rgb(26, 26, 26, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 3em;
+  margin: auto;
+  width: 95%;
+  z-index: 1000;
+}
+
+#download-btn{
+  order: 2;
+}
+
+
+#header-div{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.dropdown-content{
+  display: none;
+}
+
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown li:hover{
+  opacity: 0.5;
+}
+
+.dropdown-content li{
+  padding: 10px;
+  transition: 0.5s;
+  font-size: large;
+  width: 100%;
+}
+
+
+header h5{
+  margin: 0;
+
+}
+
+
+header h5 a{
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* _____________________________________________________________ */
+
 a:hover {
   opacity: 0.6;
   cursor: pointer;
 }
+
+
+
 
 span{
   color:#3bba9c;
@@ -116,7 +179,7 @@ iframe{
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #43455c;
-  padding-top: 265.27px;
+  padding-top: 80px;
   /* padding-bottom: 260px; */
   margin: 0;
 }
@@ -138,16 +201,17 @@ ul{
   color: white;
 }
 
-.header-links ul{
-  justify-content: center;
+
+.img{
   display: flex;
-  gap: 10px;
+  justify-content: center !important; 
+  align-items: center;
 }
 
 
 .profile-image{
   border-radius: 20px;
-  width: 80%;
+  width: 70%;
   transition: 0.5s;
 }
 
@@ -156,31 +220,6 @@ ul{
   box-shadow: 0 0 10px #3bba9c;
 }
 
-.dropdown-content{
-  display: none;
-}
-
-.header-links .dropdown-content{
-  width: 100%;
-  display: none;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
-.dropdown li:hover{
-  opacity: 0.5;
-}
-
-.dropdown-content li{
-  padding: 10px;
-  transition: 0.5s;
-  font-size: large;
-  width: 100%;
-}
 
 .socials{
   width: 100%;
@@ -267,25 +306,8 @@ h3{
 }
 
 
-header{
-  background-color: #1a1a1a;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
 
 
-header h1{
-  margin: 0;
-
-}
-
-
-header h1 a{
-  color: rgba(255, 255, 255, 0.87);
-}
 
 .socials2 ul{
   font-size: larger;
@@ -315,8 +337,8 @@ button {
   color: #3bba9c;
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 0.6em;
+  font-size: small;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -339,7 +361,6 @@ button:focus-visible {
 
 
 @media only screen and (max-width: 600px){
-
   .skills-links{
     grid-template-columns: repeat(2,1fr);
   }
@@ -347,6 +368,21 @@ button:focus-visible {
 }
 
 @media only screen and (max-width: 780px){
+  #download-btn{
+    order: 1;
+  }
+
+  #navmenu{
+    order: 2;
+  }
+
+  body{
+    padding-top: 105px;
+  }
+
+  
+
+
   .projects ul{
     display: flex;
     flex-wrap: wrap;
