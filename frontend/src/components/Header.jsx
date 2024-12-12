@@ -2,6 +2,7 @@ import { saveAs } from 'file-saver';
 import React, { useState } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import {IoMenuOutline} from "react-icons/io5"
 import ThatoResume from '../assets/resume/thato.pdf';
 import Socials2 from './Socials2';
 
@@ -24,7 +25,7 @@ function Header() {
       <div id='header-div'>
         {/* <Socials2 /> */}
         <button className="navbar-toggler" type='button' onClick={handleToggle} style={{ padding: '1em', margin: '0.5em' }}>
-          <span className="navbar-togger-icon">=</span>
+          <span className="navbar-togger-icon"><IoMenuOutline/></span>
         </button>
         <h5><RouterLink to='/'>Thato Baloyi</RouterLink></h5>
       </div>
