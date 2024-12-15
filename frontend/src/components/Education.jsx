@@ -5,7 +5,7 @@ function Education() {
     <div id='education' className='container'>
         <h1>Education</h1>
         <center><hr /></center>
-        <h4> BSc in Computer Science & Information Systems</h4>
+        <h4> BSc in <a href="https://www.ru.ac.za/computerscience/">Computer Science</a> & <a href='https://www.ru.ac.za/informationsystems/'>Information Systems</a></h4>
         <p><em>Rhodes University, [Eastern Cape, South Africa]</em></p>
         <p><em>Expected Graduation: 2026</em></p>
         <p>I recently completed my second year of a BSc in Computer Science & Information Systems at Rhodes University. My studies have deepened my understanding of fundamental computer science concepts, including algorithms, data structures, and programming languages (Java, C). I’ve also gained practical experience in database management (PostgreSQL, SQL) and web development (HTML, CSS, JavaScript). I am eager to apply my technical skills and problem-solving abilities to real-world challenges.</p>
