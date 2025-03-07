@@ -6,7 +6,7 @@ const Socials2 = () => {
     <div className="socials2">
       <ul>
         <li>
-          <a href="https://instagram.com/teamesb03" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/teamesb" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
         </li>
